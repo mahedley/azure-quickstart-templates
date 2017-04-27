@@ -9,7 +9,7 @@ sudo apt-get -y install nodejs
 sudo apt-get -y install npm
 sudo ln -s /usr/bin/nodejs /usr/bin/node
 sudo npm install pm2 -g
-git clone https://github.com/mahedley/ToDo_MEAN.git
+git clone -b clusterqs https://github.com/mahedley/ToDo_MEAN.git
 chmod -R 644 /ToDo_Mean
 cd /ToDo_Mean
 sudo npm install
