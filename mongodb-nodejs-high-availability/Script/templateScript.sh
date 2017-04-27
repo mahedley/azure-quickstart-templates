@@ -7,6 +7,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y update
 
 sudo apt-get -y install nodejs
 sudo apt-get -y install npm
+sudo apt-get -y install git
 sudo ln -s /usr/bin/nodejs /usr/bin/node
 sudo npm install pm2 -g
 sudo git clone -b clusterqs https://github.com/mahedley/ToDo_MEAN.git
